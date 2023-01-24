@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Princess Melissa Tango | Mini-Windmills</title>
+    <meta charset = "utf-8">
+    <script src = "https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-asset>
+        <a-mixin id = "propeller" geometry = "primitive: box; height: 1; width: .1; depth: .01" material = "shader: standard; color: #fff "></a-mixin>
+        <a-mixin id = "body" geometry = "primitive: cylinder; height: 2.5; radius: .1" material = "shader: standard; color: #fff"></a-mixin>
+        <a-mixin id = "motor" geometry = "primitive: box; height: .25; width: .25; depth: .4" material = "shader: standard; color: #fff" position = "0 1.25 0"></a-mixin>
+        <a-mixin id = "motorCover" geometry = "primitive: sphere; radius: .075" material = "shader: standard; color: #fff" position = "0 1.25 .25"></a-mixin>
+        <a-mixin id = "propel" animation = "property: rotation; to: 0 0 -360; dur: 3000; easing: linear; loop: true"></a-mixin>
+      </a-asset>
+
+      <a-entity mixin = "body" position = "47.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "42.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "37.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "32.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "27.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "22.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "17.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "12.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "7.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "2.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      
+      <a-entity mixin = "body" position = "-47.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "-42.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "-37.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "-32.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "-27.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "-22.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "-17.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "-12.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "-7.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+      <a-entity mixin = "body" position = "-2.5 1 -5">
+        <a-entity mixin = "motorCover"></a-entity>
+          <a-entity mixin = "motor">
+          <a-entity mixin = "propel">
+            <a-entity mixin = "propeller" position = "0 .5 .25" rotation = "0 0 0"></a-entity>
+            <a-entity mixin = "propeller" position = "-.45 -.25 .25" rotation = "0 0 120"></a-entity>
+            <a-entity mixin = "propeller" position = ".45 -.25 .25" rotation = "0 0 -120"></a-entity>
+          </a-entity>
+        </a-entity>
+      </a-entity>
+
+      <a-light position = "10 50 20" intensity = "2" distance = "100" type = "point"></a-light>
+      <a-plane color = "#123456" height = "100" width = "100" rotation = "-90 0 0" shader = "standard"></a-plane>
+      <a-sky src = "images/seaBG.jpg"></a-sky>
+    </a-scene>
+  </body>
+</html>
